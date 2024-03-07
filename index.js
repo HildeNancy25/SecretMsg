@@ -1,5 +1,7 @@
 let Secretmsg = ['hello', 'dear', 'friends', 'its been', 'long', 'time'];
 console.log(Secretmsg.length);
+Secretmsg.pop(),
+console.log(Secretmsg);
 Secretmsg.push('to','Program');
 Secretmsg[1] = 'Dearest';
 // checking changes made
